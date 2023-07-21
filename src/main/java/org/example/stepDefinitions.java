@@ -60,6 +60,7 @@ public class stepDefinitions {
     public void userIsAbleToLoginIntoTheApplication(){
         String errorMessage= driver.findElement(By.xpath("//div[@id='passwordError']")).getText();
         System.out.println(errorMessage);
+        System.out.println("King Kholi");
 
 
 
